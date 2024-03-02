@@ -1,0 +1,10 @@
+def check_even_odd(number):
+    if number % 2 == 0:
+        return "Число является четным."
+    else:
+        return "Число является нечетным."
+
+# Пример ввода числа пользователем и использование функции для проверки
+user_number = int(input("Введите число: "))
+result = check_even_odd(user_number)
+print(result)
